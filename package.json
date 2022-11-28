@@ -1,0 +1,14 @@
+{
+  "name": "softmakers",
+  "version": "1.0.0",
+  "description": "Projeto de teste automatizado ( Regressão )",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Felipe Patrocinio",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.2.0"
+  }
+}
