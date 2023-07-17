@@ -4,14 +4,13 @@ Testes de regressão com Cypress
 
 ### Requisitos
 
-Um sistema operacional suportado (Windows, macOS ou Linux)
-Node.js versão 12 ou superior
-NPM (Node Package Manager) instalado
+- Um sistema operacional suportado (Windows, macOS ou Linux)
+- Node.js versão 12 ou superior
+- NPM (Node Package Manager) instalado
 
 ### Instalação
 
 - Passo 1: Verifique se você atende aos requisitos mínimos para instalar o Cypress. São eles:
-
 
 - Passo 2: Abra o terminal ou prompt de comando.
 
@@ -25,18 +24,18 @@ $ cd meu-projeto
 $ npm init -y
 Esse comando irá criar um novo arquivo package.json na pasta do seu projeto.
 
-Passo 5: Instale o Cypress usando o comando:
+- Passo 5: Instale o Cypress usando o comando:
 
 $ npm install cypress --save-dev
 Esse comando irá instalar o Cypress e suas dependências localmente no seu projeto, e também atualizará o arquivo package.json com as informações necessárias.
 
-Passo 6: Após a conclusão da instalação, o Cypress estará disponível na pasta node_modules/.bin. Para facilitar o uso do Cypress, adicione a pasta .bin ao seu caminho de execução, executando o seguinte comando:
+- Passo 6: Após a conclusão da instalação, o Cypress estará disponível na pasta node_modules/.bin. Para facilitar o uso do Cypress, adicione a pasta .bin ao seu caminho de execução, executando o seguinte comando:
 
 $ export PATH="$PATH:./node_modules/.bin"
 No Windows, você pode usar o seguinte comando:
 
 $ setx PATH "%PATH%;%cd%/node_modules/.bin"
-Passo 7: Para abrir o Cypress pela primeira vez e configurar seu projeto, execute o seguinte comando:
+- Passo 7: Para abrir o Cypress pela primeira vez e configurar seu projeto, execute o seguinte comando:
 
 $ npx cypress open
 Isso abrirá a interface gráfica do Cypress e gerará a estrutura básica de arquivos em um diretório chamado cypress na raiz do seu projeto.
