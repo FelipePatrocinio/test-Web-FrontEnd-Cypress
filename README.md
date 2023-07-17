@@ -40,6 +40,6 @@ $ setx PATH "%PATH%;%cd%/node_modules/.bin"
 $ npx cypress open
 Isso abrirá a interface gráfica do Cypress e gerará a estrutura básica de arquivos em um diretório chamado cypress na raiz do seu projeto.
 
-Passo 8 (opcional): Se quiser realizar testes em navegadores específicos, você precisa instalar os navegadores desejados. O Cypress suporta automaticamente a execução de testes no Chrome, mas você pode adicionar suporte para outros navegadores, como Firefox, seguindo as instruções disponíveis na documentação oficial do Cypress.
+- Passo 8 (opcional): Se quiser realizar testes em navegadores específicos, você precisa instalar os navegadores desejados. O Cypress suporta automaticamente a execução de testes no Chrome, mas você pode adicionar suporte para outros navegadores, como Firefox, seguindo as instruções disponíveis na documentação oficial do Cypress.
 
 Pronto! Você agora tem o Cypress instalado em seu projeto e pode começar a escrever seus testes automatizados.
