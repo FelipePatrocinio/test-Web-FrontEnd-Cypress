@@ -1,20 +1,26 @@
 # test-Web-FrontEnd-Cypress
 Testes de regressão com Cypress
 
-Segue um passo a passo para instalar o Cypress e seus requisitos:
 
-Passo 1: Verifique se você atende aos requisitos mínimos para instalar o Cypress. São eles:
+### Requisitos
 
 Um sistema operacional suportado (Windows, macOS ou Linux)
 Node.js versão 12 ou superior
 NPM (Node Package Manager) instalado
-Passo 2: Abra o terminal ou prompt de comando.
 
-Passo 3: Crie uma nova pasta para o projeto e navegue até essa pasta usando o comando cd seguido do caminho da pasta. Por exemplo:
+### Instalação
+
+- Passo 1: Verifique se você atende aos requisitos mínimos para instalar o Cypress. São eles:
+
+
+- Passo 2: Abra o terminal ou prompt de comando.
+
+- Passo 3: Crie uma nova pasta para o projeto e navegue até essa pasta usando o comando cd seguido do caminho da pasta. Por exemplo:
 
 $ mkdir meu-projeto
 $ cd meu-projeto
-Passo 4: Inicialize um novo projeto Node.js executando o seguinte comando:
+
+- Passo 4: Inicialize um novo projeto Node.js executando o seguinte comando:
 
 $ npm init -y
 Esse comando irá criar um novo arquivo package.json na pasta do seu projeto.
